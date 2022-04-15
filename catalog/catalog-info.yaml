@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ihsm-net
+  name: tanzu-dotnet-web-app
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=ihsm-net"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tanzu-dotnet-web-app"
 spec:
   type: service
   lifecycle: experimental
